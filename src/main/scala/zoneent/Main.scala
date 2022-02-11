@@ -1,5 +1,6 @@
 package zoneent
 
+import zio.*
 import zio.Console.{printLine, readLine}
 
 object Main extends zio.App :

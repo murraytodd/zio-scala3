@@ -13,7 +13,7 @@ lazy val root = project
     
     libraryDependencies ++= Seq(
     //  "com.novocode" % "junit-interface" % "0.11" % Test, // if you need (Java) JUnit tests
-      "org.scalatest" %% "scalatest" % "3.2.9", // if you need to also have (non-ZIO) Scalatest tests
+      "org.scalatest" %% "scalatest" % "3.2.10", // if you need to also have (non-ZIO) Scalatest tests
       "dev.zio" %% "zio" % zioVersion,
       "dev.zio" %% "zio-streams" % zioVersion,
       "dev.zio" %% "zio-test-sbt" % zioVersion % Test,
